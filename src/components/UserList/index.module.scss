@@ -1,0 +1,51 @@
+.userList {
+    width: 1600px;
+    padding: 20px;
+    // padding-bottom: 0;
+    background: #fff2;
+    .panel {
+        .btnAdd {
+            margin-bottom: 20px;
+            padding: 10px 100px;
+            background: #fff4;
+            color: white;
+            // color: navy;
+            border: none;
+            border-radius: 10px;
+            font-size: 28px;
+            text-transform: uppercase;
+            width: 400px;
+            // transition: 0.2s ease;
+            &:hover {
+                // transition: 0.2s ease;
+                background: #f009;
+                cursor: pointer;
+                // width: 100%;
+            }
+        }
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(6, 1fr);
+      grid-gap: 4px;
+      .gridCell {
+        padding: 20px;
+        background: #fff2;
+        font-size: 20px;
+        .btnDelete {
+          background: #0005;
+          color: white;
+          border: none;
+          padding: 10px;
+          width: 100%;
+          text-transform: uppercase;
+          &:hover {
+              background: #f009;
+              cursor: pointer;
+          }
+        }
+      }
+    }
+}
+
+
